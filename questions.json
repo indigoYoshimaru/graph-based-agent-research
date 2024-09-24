@@ -1,0 +1,30 @@
+{
+    "global_questions": [
+        "How many articles are there?",
+        "What are the main focus in these articles?",
+        "When were these articles written and who are the authors?",
+        "How many articles are there about AIs and how many about famous sights?"
+    ],
+    "local_questions": {
+        "2018-06-24-attention.txt": [
+            "What is attention?",
+            "How many types of attention are there?"
+        ],
+        "2023-03-15-prompt-engineering.txt": [
+            "What is prompt engineering?",
+            "Give me an example using prompt engineering"
+        ],
+        "2023-06-23-agent.txt": [
+            "What challenges are involved in building agents?",
+            "Why are agents important in AI?"
+        ],
+        "Great_Wall_of_China.txt": [
+            "Why was the Great Wall built?",
+            "How long and how old is the Great Wall of China?"
+        ],
+        "halongbay.txt": [
+            "Where is Ha Long Bay and what is it known for?",
+            "How many islands does Ha Long Bay have?"
+        ]
+    }
+}
