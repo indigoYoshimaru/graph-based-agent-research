@@ -1,4 +1,5 @@
 import subprocess
+from loguru import logger
 
 
 def load_questions(question_file: str) -> dict:
@@ -18,7 +19,7 @@ def get_answer(question, method):
         "./graph_rag/test/",
         "--method",
         f"{method}",
-        question,
+        f"Don't use the answers from the example, answer the question: {question}",
     ]
     subprocess.call(
         command,
@@ -29,6 +30,14 @@ def get_answer(question, method):
 
 if __name__ == "__main__":
     question_dict = load_questions(question_file="questions.json")
-    for global_question in question_dict["global_questions"]:
-        print(global_question)
-        get_answer(question=global_question, method="global")
+    # global questions
+    # for global_question in question_dict["global_questions"]:
+    #     logger.info(f"Q: {global_question}")
+    #     get_answer(question=global_question, method="global")
+
+    # local questions
+    for doc_names, question_list in question_dict["local_questions"].items():
+        logger.info(f"Local question in document: {doc_names}")
+        for question in question_list:
+            logger.info(f"Q: {question}")
+            get_answer(question=question, method="global")

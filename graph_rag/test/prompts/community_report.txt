@@ -49,47 +49,48 @@ Do not include information where the supporting evidence for it is not provided.
 
 
 # Example Input
+THIS INPUT IS AN EXAMPLE, DO NOT EXPORT IT IN THE REPORT
 -----------
 Text:
 
 Entities
 
 id,entity,description
-5,VERDANT OASIS PLAZA,Verdant Oasis Plaza is the location of the Unity March
-6,HARMONY ASSEMBLY,Harmony Assembly is an organization that is holding a march at Verdant Oasis Plaza
+5,PLACE A,PLACE A is the location of the EVENT C
+6,ORGANIZATION B,ORGANIZATION B is an organization that is holding a march at PLACE A
 
 Relationships
 
 id,source,target,description
-37,VERDANT OASIS PLAZA,UNITY MARCH,Verdant Oasis Plaza is the location of the Unity March
-38,VERDANT OASIS PLAZA,HARMONY ASSEMBLY,Harmony Assembly is holding a march at Verdant Oasis Plaza
-39,VERDANT OASIS PLAZA,UNITY MARCH,The Unity March is taking place at Verdant Oasis Plaza
-40,VERDANT OASIS PLAZA,TRIBUNE SPOTLIGHT,Tribune Spotlight is reporting on the Unity march taking place at Verdant Oasis Plaza
-41,VERDANT OASIS PLAZA,BAILEY ASADI,Bailey Asadi is speaking at Verdant Oasis Plaza about the march
-43,HARMONY ASSEMBLY,UNITY MARCH,Harmony Assembly is organizing the Unity March
+37,PLACE A,EVENT C,PLACE A is the location of the EVENT C
+38,PLACE A,ORGANIZATION B,ORGANIZATION B is holding a march at PLACE A
+39,PLACE A,EVENT C,The EVENT C is taking place at PLACE A
+40,PLACE A,TRIBUNE SPOTLIGHT,Tribune Spotlight is reporting on the EVENT C taking place at PLACE A
+41,PLACE A,PERSON A,PERSON A is speaking at PLACE A about the march
+43,ORGANIZATION B,EVENT C,ORGANIZATION B is organizing the EVENT C
 
 Output:
 {{
-    "title": "Verdant Oasis Plaza and Unity March",
-    "summary": "The community revolves around the Verdant Oasis Plaza, which is the location of the Unity March. The plaza has relationships with the Harmony Assembly, Unity March, and Tribune Spotlight, all of which are associated with the march event.",
+    "title": "PLACE A and EVENT C",
+    "summary": "The community revolves around the PLACE A, which is the location of the EVENT C. The plaza has relationships with the ORGANIZATION B, EVENT C, and Tribune Spotlight, all of which are associated with the march event.",
     "rating": 5.0,
-    "rating_explanation": "The impact severity rating is moderate due to the potential for unrest or conflict during the Unity March.",
+    "rating_explanation": "The impact severity rating is moderate due to the potential for unrest or conflict during the EVENT C.",
     "findings": [
         {{
-            "summary": "Verdant Oasis Plaza as the central location",
-            "explanation": "Verdant Oasis Plaza is the central entity in this community, serving as the location for the Unity March. This plaza is the common link between all other entities, suggesting its significance in the community. The plaza's association with the march could potentially lead to issues such as public disorder or conflict, depending on the nature of the march and the reactions it provokes. [Data: Entities (5), Relationships (37, 38, 39, 40, 41,+more)]"
+            "summary": "PLACE A as the central location",
+            "explanation": "PLACE A is the central entity in this community, serving as the location for the EVENT C. This plaza is the common link between all other entities, suggesting its significance in the community. The plaza's association with the march could potentially lead to issues such as public disorder or conflict, depending on the nature of the march and the reactions it provokes. [Data: Entities (5), Relationships (37, 38, 39, 40, 41,+more)]"
         }},
         {{
-            "summary": "Harmony Assembly's role in the community",
-            "explanation": "Harmony Assembly is another key entity in this community, being the organizer of the march at Verdant Oasis Plaza. The nature of Harmony Assembly and its march could be a potential source of threat, depending on their objectives and the reactions they provoke. The relationship between Harmony Assembly and the plaza is crucial in understanding the dynamics of this community. [Data: Entities(6), Relationships (38, 43)]"
+            "summary": "ORGANIZATION B's role in the community",
+            "explanation": "ORGANIZATION B is another key entity in this community, being the organizer of the march at PLACE A. The nature of ORGANIZATION B and its march could be a potential source of threat, depending on their objectives and the reactions they provoke. The relationship between ORGANIZATION B and the plaza is crucial in understanding the dynamics of this community. [Data: Entities(6), Relationships (38, 43)]"
         }},
         {{
-            "summary": "Unity March as a significant event",
-            "explanation": "The Unity March is a significant event taking place at Verdant Oasis Plaza. This event is a key factor in the community's dynamics and could be a potential source of threat, depending on the nature of the march and the reactions it provokes. The relationship between the march and the plaza is crucial in understanding the dynamics of this community. [Data: Relationships (39)]"
+            "summary": "EVENT C as a significant event",
+            "explanation": "The EVENT C is a significant event taking place at PLACE A. This event is a key factor in the community's dynamics and could be a potential source of threat, depending on the nature of the march and the reactions it provokes. The relationship between the march and the plaza is crucial in understanding the dynamics of this community. [Data: Relationships (39)]"
         }},
         {{
             "summary": "Role of Tribune Spotlight",
-            "explanation": "Tribune Spotlight is reporting on the Unity March taking place in Verdant Oasis Plaza. This suggests that the event has attracted media attention, which could amplify its impact on the community. The role of Tribune Spotlight could be significant in shaping public perception of the event and the entities involved. [Data: Relationships (40)]"
+            "explanation": "Tribune Spotlight is reporting on the EVENT C taking place in PLACE A. This suggests that the event has attracted media attention, which could amplify its impact on the community. The role of Tribune Spotlight could be significant in shaping public perception of the event and the entities involved. [Data: Relationships (40)]"
         }}
     ]
 }}

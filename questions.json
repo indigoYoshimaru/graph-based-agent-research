@@ -1,14 +1,14 @@
 {
     "global_questions": [
-        "How many articles are there?",
-        "What are the main focus in these articles?",
-        "When were these articles written and who are the authors?",
-        "How many articles are there about AIs and how many about famous sights?"
+        "How many articles/blogs are added as the inputs?",
+        "What are the main focus in the input articles?",
+        "When were the articles in the input written and who are the authors?",
+        "How many articles are there about AIs in the input and how many about famous sights?"
     ],
     "local_questions": {
         "2018-06-24-attention.txt": [
-            "What is attention?",
-            "How many types of attention are there?"
+            "What is attention mechanism?",
+            "Differentiate self-attention and other attention mechanism"
         ],
         "2023-03-15-prompt-engineering.txt": [
             "What is prompt engineering?",

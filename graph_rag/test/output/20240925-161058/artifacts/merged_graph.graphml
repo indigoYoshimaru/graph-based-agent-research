@@ -1,0 +1,175 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ORGANIZATION&quot;">
+      <data key="d0">"AUTOGPT"</data>
+      <data key="d1">"AutoGPT is an organization that developed a preprint titled 'Behavior.'"
+"arXiv is an organization that hosts preprints in the fields of physics, mathematics, computer science, and related disciplines."</data>
+      <data key="d2">5362446350dfc49693fb5422a6621425,66dc1c9cf334acf2ea1e9788d749e760</data>
+    </node>
+    <node id="&quot;PERSON&quot;">
+      <data key="d0">"SIGNIFICANT-GRAVITAS"</data>
+      <data key="d1">"Significant-Gravitas is the person behind the AutoGPT project."
+"The author of the arXiv preprint arXiv:2305.10601 (2023) is not specified."</data>
+      <data key="d2">5362446350dfc49693fb5422a6621425,66dc1c9cf334acf2ea1e9788d749e760</data>
+    </node>
+    <node id="&quot;GEO&quot;">
+      <data key="d0">"ARXIV"</data>
+      <data key="d1">"arXiv is a location where preprints are published, including 'Behavior' by AutoGPT."
+"No specific location is mentioned in relation to the arXiv preprint arXiv:2305.10601 (2023)."</data>
+      <data key="d2">5362446350dfc49693fb5422a6621425,66dc1c9cf334acf2ea1e9788d749e760</data>
+    </node>
+    <node id="&quot;EVENT&quot;">
+      <data key="d0">"ADVERSARIAL ATTACKS ON LLMS"</data>
+      <data key="d1">"Adversarial Attacks on LLMs is an event or topic related to the field of natural language processing."
+"The event of interest is the publication of a preprint on arXiv, specifically arXiv:2305.10601 (2023)."</data>
+      <data key="d2">5362446350dfc49693fb5422a6621425,66dc1c9cf334acf2ea1e9788d749e760</data>
+    </node>
+    <node id="&quot;AUTOGPT&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5362446350dfc49693fb5422a6621425</data>
+    </node>
+    <node id="&quot;SIGNIFICANT-GRAVITAS&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5362446350dfc49693fb5422a6621425</data>
+    </node>
+    <node id="&quot;ARXIV&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5362446350dfc49693fb5422a6621425</data>
+    </node>
+    <node id="&quot;XIAOLONG WANG ET AL.&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Xiaolong Wang and his team published a paper on Non-local Neural Networks at CVPR 2018."</data>
+      <data key="d2">3968d8353035865b06a7675872403655</data>
+    </node>
+    <node id="&quot;HAN ZHANG ET AL.&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Han Zhang and his co-authors developed the Self-Attention Generative Adversarial Networks model."</data>
+      <data key="d2">3968d8353035865b06a7675872403655</data>
+    </node>
+    <node id="&quot;DEEPMIND&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">3968d8353035865b06a7675872403655</data>
+    </node>
+    <node id="&quot;WAVENET&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">3968d8353035865b06a7675872403655</data>
+    </node>
+    <node id="&quot;NON-LOCAL NEURAL NETWORKS&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">3968d8353035865b06a7675872403655</data>
+    </node>
+    <node id="&quot;SELF-ATTENTION GENERATIVE ADVERSARIAL NETWORKS&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">3968d8353035865b06a7675872403655</data>
+    </node>
+    <node id="&quot;HA LONG BAY&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Ha Long Bay is a UNESCO World Heritage Site known for its limestone karstic geomorphologic features and historical significance."
+"Ha Long Bay is a bay located in Vietnam."</data>
+      <data key="d2">6afc24f47e574165d511f4ac2f6e3877,9100a943429fcc125c44af91babbc2ba</data>
+    </node>
+    <node id="&quot;KARST&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Karst refers to a type of limestone landscape that has been shaped by dissolution and erosion."</data>
+      <data key="d2">efff03f4a7e50cf7d1b296180f0a11b5</data>
+    </node>
+    <node id="&quot;YANGSHUO&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Yangshuo in China is a similar karst landscape to Ha Long Bay."</data>
+      <data key="d2">efff03f4a7e50cf7d1b296180f0a11b5</data>
+    </node>
+    <node id="&quot;WORLD MONUMENTS FUND&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The World Monuments Fund included Ha Long Bay on the 2012 World Monuments Watch."</data>
+      <data key="d2">9100a943429fcc125c44af91babbc2ba</data>
+    </node>
+    <node id="&quot;PERSON B&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"PERSON B is the leader of a team attempting first contact with an unknown intelligence, acknowledging the significance of their task."</data>
+      <data key="d2">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </node>
+    <node id="&quot;CONTROL&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Control refers to the ability to manage or govern, which is challenged by an intelligence that writes its own rules."</data>
+      <data key="d2">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </node>
+    <node id="&quot;INTELLIGENCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Intelligence here refers to an unknown entity capable of writing its own rules and learning to communicate."</data>
+      <data key="d2">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </node>
+    <node id="&quot;FIRST CONTACT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"First Contact is the potential initial communication between humanity and an unknown intelligence."</data>
+      <data key="d2">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </node>
+    <node id="&quot;HUMANITY'S RESPONSE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Humanity's Response is the collective action taken by PERSON B's team in response to a message from an unknown intelligence."</data>
+      <data key="d2">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </node>
+    <node id="&quot;PERSON C&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </node>
+    <edge source="&quot;AUTOGPT&quot;" target="&quot;SIGNIFICANT-GRAVITAS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"AutoGPT was developed by Significant-Gravitas, indicating a direct relationship between the organization and its creator."</data>
+      <data key="d5">5362446350dfc49693fb5422a6621425</data>
+    </edge>
+    <edge source="&quot;AUTOGPT&quot;" target="&quot;ARXIV&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The preprint 'Behavior' by AutoGPT was published on arXiv, showing a connection between the publication platform and the project."</data>
+      <data key="d5">5362446350dfc49693fb5422a6621425</data>
+    </edge>
+    <edge source="&quot;XIAOLONG WANG ET AL.&quot;" target="&quot;NON-LOCAL NEURAL NETWORKS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Xiaolong Wang and his team published a paper on Non-local Neural Networks."</data>
+      <data key="d5">3968d8353035865b06a7675872403655</data>
+    </edge>
+    <edge source="&quot;HAN ZHANG ET AL.&quot;" target="&quot;SELF-ATTENTION GENERATIVE ADVERSARIAL NETWORKS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Han Zhang and his co-authors developed the Self-Attention Generative Adversarial Networks model."</data>
+      <data key="d5">3968d8353035865b06a7675872403655</data>
+    </edge>
+    <edge source="&quot;DEEPMIND&quot;" target="&quot;WAVENET&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"DeepMind developed the WaveNet model for raw audio generation."</data>
+      <data key="d5">3968d8353035865b06a7675872403655</data>
+    </edge>
+    <edge source="&quot;PERSON B&quot;" target="&quot;FIRST CONTACT&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"PERSON B leads the team that might be making the First Contact with the unknown intelligence."</data>
+      <data key="d5">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </edge>
+    <edge source="&quot;PERSON B&quot;" target="&quot;HUMANITY'S RESPONSE&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"PERSON B and his team are the key figures in Humanity's Response to the unknown intelligence."</data>
+      <data key="d5">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </edge>
+    <edge source="&quot;CONTROL&quot;" target="&quot;INTELLIGENCE&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The concept of Control is challenged by the Intelligence that writes its own rules."</data>
+      <data key="d5">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </edge>
+    <edge source="&quot;INTELLIGENCE&quot;" target="&quot;PERSON C&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Person C is directly involved in the process of learning to communicate with the unknown intelligence."</data>
+      <data key="d5">fad09da074ab52e3c2b56b9eb5d43fce</data>
+    </edge>
+  </graph>
+</graphml>
